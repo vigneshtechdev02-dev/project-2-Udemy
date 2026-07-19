@@ -1,0 +1,150 @@
+body{
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+}
+.navbar-s1__title{
+    color: #a435f0;
+}
+
+.navbar-s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar-s2 input{
+    width: 100%;
+    border: none;
+    font-size: 18px;
+}
+
+.navbar-s2 input:focus{
+    outline: none;
+}
+
+.navbar-s3{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cat-s1{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    border-bottom: solid black 1px;
+}
+
+.cat-s1 p{
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #a435f0;
+    color: white;
+}
+
+.cat-s1 p:hover{
+    cursor: pointer;
+}
+
+.main-image{
+    justify-content: center;
+    display: flex;
+}
+.main-image img{
+    width: 80%;
+}
+
+.recommend{
+    padding: 10px;
+}
+
+.recommend__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+     
+}
+
+.corse__card{
+    width: 300px;
+}
+
+.corse__card img{
+    width: 100%;
+}
+
+
+.topics{
+    padding: 10px;
+}
+
+.topics__box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.topics__box p{
+    padding: 10px;
+    border: solid black 1px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+
+
+.popular{
+    padding: 10px;
+}
+
+.popular__container{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+
+}
+
+.footer-one{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-one p{
+    margin: 20px;
+}
+
+.footer-two{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
