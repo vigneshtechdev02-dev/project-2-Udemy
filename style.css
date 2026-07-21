@@ -229,7 +229,9 @@ body{
         flex-basis: 40%;
     }
     .main-image__offer{
-        display: none;
+        flex-basis: 55%;
+        padding: 0;
+        text-align: center;
     }
     .navbar-s2, .navbar-s3{
         display: none;
@@ -241,4 +243,5 @@ body{
     .main-image{
         width: 100%;
     }
+    
 }
