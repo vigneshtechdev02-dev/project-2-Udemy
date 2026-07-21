@@ -89,6 +89,10 @@ body{
 
 .cat-s1 p:hover{
     cursor: pointer;
+    background-color: white;
+    color: black;
+    border: #a435f0 solid 1px;
+    transition: 1s;
 }
 
 .main-image{
@@ -109,6 +113,22 @@ body{
     position: absolute;
     width: 400px;
     bottom: 5px;
+    animation-name: popup;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes popup {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .recommend{
