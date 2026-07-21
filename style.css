@@ -15,6 +15,10 @@ body{
     display: flex;
     justify-content: space-between;
     border-bottom: solid black 1px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
 }
 .navbar-s1__title{
     color: #a435f0;
@@ -34,6 +38,7 @@ body{
     width: 100%;
     border: none;
     font-size: 18px;
+    background-color: transparent;
 }
 
 .navbar-s2 input:focus{
@@ -44,6 +49,27 @@ body{
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+/* learning popup */
+.learning{
+    position: relative;
+    cursor: pointer;
+}
+
+.learning__popup{
+    position: absolute;
+    background-color: white;
+    border: solid black 1px;
+    width: 100px;
+    padding: 10px;
+    right: 0px;
+    top: 150%;
+    display: none;
+}
+
+.learning:hover .learning__popup{
+    display: block;
 }
 
 .cat-s1{
@@ -68,9 +94,21 @@ body{
 .main-image{
     justify-content: center;
     display: flex;
+    position: relative;
 }
 .main-image img{
     width: 80%;
+}
+
+.main-image__offer{
+    background-color: white;
+    border: solid black 2px;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 20px;
+    position: absolute;
+    width: 400px;
+    bottom: 5px;
 }
 
 .recommend{
